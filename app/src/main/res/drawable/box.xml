@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rounded_rectangle_with_shine.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="46dp" /> <!-- Set corner radius -->
+    <stroke
+        android:width="3dp"
+    android:color="#EFBE2A"/>
+    <gradient
+        android:startColor="#EFBE2A"
+    android:endColor="#00FFFFFF"
+    android:angle="45" />
+    <solid android:color="#A2128E" /> <!-- Set background color (pink) -->
+</shape>

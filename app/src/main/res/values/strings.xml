@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Helliverse</string>
+    <string name="are_u_14_years_or_older">Are U 14 Years or Older?</string>
+    <string name="n">By Clicking Continue, I Agree That I am At Least 14 Years Old</string>
+    <string name="yes">Yes, Continue</string>
+    <string name="no">No, I am not 14</string>
+</resources>

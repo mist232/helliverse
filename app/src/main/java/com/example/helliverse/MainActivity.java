@@ -12,4 +12,13 @@ public class MainActivity extends AppCompatActivity {
      setContentView(R.layout.activity_main);
 
  }
+ @Override
+protected void attachBaseContext(Context newBase) {
+    
+    final Configuration override = new Configuration(newBase.getResources().getConfiguration());
+    override.fontScale = 1.0f;
+    applyOverrideConfiguration(override);
+
+    super.attachBaseContext(newBase);
+}
 }
